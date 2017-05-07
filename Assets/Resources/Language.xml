@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Settings>
+    <meta>
+        <Name>Expression</Name>
+        <version>1.0</version>
+        <language>Multilingual</language>	
+    </meta>
+	
+  <group id="MainScene">
+        <string id="PLAY">
+		    <text lang="en">Play</text>
+			  <text lang="ru">Играть</text>	
+        </string>	
+  </group>	
+	
+  <group id="LevelList">
+    <group id="AttentionText">
+      <string lang="en">
+        <text id ="1">You must have at least</text>
+        <text id ="2">stars 
+to unlock next levels.
+You have</text>
+      </string>
+      <string lang="ru">
+        <text id="1">У вас должно быть минимум</text>
+        <text id ="2">звезд, 
+чтобы разблокировать следующие уровни. 
+У вас есть</text>
+      </string>
+    </group>
+  </group>
+
+  <group id="Stage">
+    <string id="TargetAnswer">
+      <text lang="en">Target answer: </text>
+      <text lang="ru">Целевой ответ: </text>
+    </string>
+	<string id="Actions">
+      <text lang="en">Actions: </text>
+      <text lang="ru">Действия: </text>
+    </string>
+  </group>
+
+  <group id="Pause"> // On pause translation block
+    <string id="ToMenu">
+      <text lang="en">to menu</text>
+      <text lang="ru">в меню</text>
+    </string>
+
+    <string id="Restart">
+      <text lang="en">restart</text>
+      <text lang="ru">заново</text>
+    </string>
+
+    <string id="ToLevelList">
+      <text lang="en">to level
+list</text>
+      <text lang="ru">к списку
+уровней</text>
+    </string>
+  </group>
+
+<group id="Win"> // Win translation block
+   <string id="Congatulations">
+      <text lang="en">Congatulations !!!</text>
+      <text lang="ru">Поздравляем !!!</text>
+   </string>
+		
+	<string id="LevelСomplete">
+      <text lang="en">Level complete</text>
+      <text lang="ru">Уровень пройден</text>
+   </string>
+
+	<string id="Solved">
+      <text lang="en">Solved</text>
+      <text lang="ru">Решено</text>
+   </string>
+
+	<string id="Time">
+    	  <text lang="en">Time</text>
+     	 <text lang="ru">Время</text>
+   </string>
+
+	<string id="Actions">
+   	  	 <text lang="en">Actions</text>
+      	<text lang="ru">Действия</text>
+   </string>
+
+	<string id="NextLevel">
+    	 <text lang="en">Next
+Level</text>
+   		 <text lang="ru">Дальше</text>
+   </string>
+</group>	
+	
+<group id="Settings"> // Setting translation block
+		
+	<string id="SETTINGS">
+    	  <text lang="en">SETTINGS</text>
+     	 <text lang="ru">НАСТРОЙКИ</text>
+   </string>
+
+	<string id="Language">
+    	  <text lang="en">Language</text>
+     	 <text lang="ru">Язык</text>
+   </string>
+
+	<string id="Hardness">
+    	  <text lang="en">Hardness</text>
+     	 <text lang="ru">Сложность</text>
+   </string>
+
+	<string id="Music">
+    	  <text lang="en">Music</text>
+     	 <text lang="ru">Музыка</text>
+   </string>
+</group>
+
+<group id="HowTo"> // "How to" translation block
+		
+	<string id="TimerText">
+    	  <text lang="en">Timer.
+When expired, turn orange</text>
+     	 <text lang="ru">Таймер.
+По истечении времени
+становится оранжевым</text>
+   </string>
+		
+   <string id="ActionText">
+    	  <text lang="en">Actions counter.
+When limit expired, turn orange.</text>
+     	 <text lang="ru">Счетчик действий.
+При использованиии лимита
+становится оранжевым</text>
+   </string>
+
+   <string id="MainText">
+    	  <text lang="en">When level is loaded you have several objects.
+Every object have hidden number value. 
+You can see a value when object
+is placed in expression</text>
+     	 <text lang="ru">При запуске уровня у вас есть несколько 
+объектов. Каждый объект имеет числовое
+ значение назначаемое каждый раз
+случайным образом и скрытое от вас. 
+Увидеть его можно используя в примере.</text>
+   </string>
+
+    <string id="TargetAnswer">
+    	  <text lang="en">Target answer: 12</text>
+     	 <text lang="ru">Целевой ответ: 12</text>
+   </string>
+		
+   <string id="TargetAnswerDesc">
+    	  <text lang="en">You need place objects
+to current answer so,
+to be equal a target answer</text>
+     	 <text lang="ru">Нужно подставить объекты так, 
+чтобы полученный ответ 
+соответствовал целевому
+</text>
+   </string>
+		
+</group>
+	
+</Settings>
